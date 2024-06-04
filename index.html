@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> QuantumBuilds: Beyond The Ordinary</title>
+    <link rel="stylesheet" href="index.css">
+
+<script>
+    function passvalues()
+    {
+        var firstname=document.getElementById("txt").value;
+        localStorage.setItem("textvalue",firstname);
+        return false;
+    }
+</script>
+</head>
+<body background="./img/page1login.jpg">
+    
+
+    <br><br><br>
+    <main>
+        <div class="login">
+            <P  style="font-size:40px;"> Beyond The Ordinary</P>
+            <p  style="font-size:40px;"></p>
+         </div>
+        <div class="ripper">
+            <p style="font-size:100px;">QuantumBuilds &nbsp; 
+            <p style="font-size:20px;"> Enriching your PC building experience </p></p>
+            <p style="font-size:20px;"> Make your dream PC comes true with QuantumBuilds</p></p>
+        </div>
+        <div class="logg">
+           
+            <div class="box">
+                <form action="index2.html">
+                    <p class="join">Join Us : </p>
+                     
+                <div class="input-container">
+                    <input type="text" id="txt" required="*"  /> 
+                    <label class="lable">Full Name</label>		
+                </div>
+                <div class="input-container">		
+                    <input type="email" id="email" required="*">
+                    <label class="lable">Email</label>
+                </div>
+                <div class="input-container">		
+                    <input type="tel" id="phnumber" required="*">
+                    <label class="lable">Mobile no.(For Updates)</label>
+                </div>
+
+                <a href="index2.html">
+                     <button   class="log" onclick="passvalues()"> Login </button>
+                 
+                </a>
+            </form>	
+            </div>
+    </main>
+<div>
+
+    
+    
+    <footer class="copyright">
+        <div>
+            Copyright © Tanmay Tukaram Dhengle (TE-IT)
+        </div>
+    </footer>
+</div>
+</body>
+</html>
